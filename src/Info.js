@@ -3,12 +3,12 @@ import Me from "./imgs/me.jpg"
 
 export default function Info() {
     return (
-        <main className="main--info">
+        <>
             <img src={Me} alt="mwah" />
-            <h1>Francis Adewale</h1>
-            <h2>Aspiring Full Stack Developer</h2>
-            <h3>francisadewale.website</h3>
+            <h3>Francis Adewale</h3>
+            <h4>Aspiring Full Stack Developer</h4>
+            <h5>francisadewale.website</h5>
             <button>Email</button>
-        </main>
+        </>
     )
 }

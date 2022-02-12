@@ -2,3 +2,28 @@ body {
   background-color: #23252C;
 }
 
+#root {
+    background-color: #1A1B21;
+    width:317px;
+    height: 100%;
+    border-radius: 25px;
+    margin: 30px auto;
+    
+}
+
+img {
+  object-fit: contain;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 100%; 
+  max-height: 50%;
+}
+
+h3, h4, h5 {
+ text-align: center;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
