@@ -3,7 +3,8 @@ import ReactDOM  from "react-dom"
 import Info from "./Info"
 import About from "./About"
 import Interests from "./Interests"
-import '../src/app.css';
+import Footer from "./Footer"
+import '../src/app.css'
 
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
     <Info />
     <About />
     <Interests />
+    <Footer />
   </div>
    , document.getElementById("root")
 )

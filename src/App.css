@@ -127,3 +127,39 @@ padding-top: 20px;
   padding-right: 35px;
   padding-bottom: 30px;
 }
+
+footer {
+  display: flex;
+  background: #161619;
+  width: 317px;
+  height: 64px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+.insta-icon {
+  background: url(../src/imgs/InstagramIcon.png) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-icon {
+  background: url(../src/imgs/LinkedinIcon.png) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.github-icon {
+  background: url(../src/imgs/GitHubIcon.png) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+a {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
