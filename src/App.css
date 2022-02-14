@@ -103,3 +103,27 @@ padding-top: 20px;
   padding-left: 35px;
   padding-right: 35px;
 }
+
+.interests--title {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+color: #F5F5F5;
+padding-left: 35px;
+padding-top: 20px;
+}
+
+.interests--details {
+  margin-top: -8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+}
