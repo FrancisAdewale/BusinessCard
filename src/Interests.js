@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function About() {
+export default function Interests() {
     return (
         <>
             <h1 className="interests--title">Interests</h1>
